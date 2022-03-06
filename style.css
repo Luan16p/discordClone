@@ -493,8 +493,23 @@ footer {
     }
 }
 
-@media screen and (max-width: 377px) {
+@media screen and (max-width: 480px) {
     .market-1 img, .market-2 img, .market-3 img {
-        width: 250px;
+        width: 300px;
     }
+    .content-txt-1 h2, .content-txt-2 h2, .content-txt-3 h2 {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .content-txt-1, .content-txt-2, .content-txt-3 {
+        text-align: center;
+    }
+
+    .content-txt-1 p, .content-txt-2 p, .content-txt-3 p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    
 }
