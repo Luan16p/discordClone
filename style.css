@@ -386,6 +386,7 @@ footer {
 
     .market-2 {
         flex-direction: column-reverse;
+        height: 80vh;
     }
 
     .market-1 img, .market-2 img, .market-3 img {
@@ -511,5 +512,12 @@ footer {
         text-align: center;
     }
 
+    .market-1, .market-2, .market-3 {
+        height: 50vh;
+    }
     
+    .market-2 {
+        height: 40vh;
+    }
+
 }
