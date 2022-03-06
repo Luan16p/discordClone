@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Twinkle+Star&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=League+Gothic&family=Noto+Sans&family=Twinkle+Star&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Righteous&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    font-size: 26px;
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Righteous', cursive;
+}
+
+.nav-header-content {
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #404eed;
+}
+
+.nav-list, .fade-btn {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-list li {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 12px;
+}
+
+.nav-list li:hover {
+    text-decoration: underline;
+}
+
+.fade-btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.fade-btn a {
+    padding: 11px 12px;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.fade-btn a:hover {
+    color: #404eed;
+    box-shadow: 0px 3px 20px -4px rgb(54, 54, 54);
+}
+
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div {
+    height: 3px;
+    margin: 7.5px;
+    width: 32px;
+    background: #fff;
+}
+
+.first-txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 59vh;
+    background: url(img/bgs.png) no-repeat center center;
+    background-size: cover;
+}
+
+.align {
+    width: 600px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.align h2 {
+    font-size: 60px;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.align p {
+    margin: 25px 0;
+}
+
+.btns {
+    display: flex;
+}
+
+.bx-windows, .op-nvg {
+    width: 50%;
+    height: 50px;
+    margin: 0 10px;
+    border: 0;
+    padding: 0px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bx-windows {
+    background: #fff;
+    color: #000;
+    transition: 0.3555s;
+}
+
+.bx-windows:hover {
+    color: #404eed;
+    box-shadow: 0px 5px 44px 1px rgb(83, 83, 83);
+}
+
+.op-nvg {
+    background: #222;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.op-nvg:hover {
+    background: rgb(51, 51, 51);
+    box-shadow: 0px 5px 44px 1px rgb(70, 70, 70);
+}
+
+.market-1 {
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-txt-1 {
+    text-align: center;
+    width: 400px;
+}
+
+.content-txt-1 h2 {
+    font-size: 48px;
+    text-align:left;
+    font-family: sans-serif;
+}
+
+.content-txt-1 p {
+    font-family: sans-serif;
+    margin: 10px 0;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(110, 110, 110);
+    font-weight: 300;
+}
+
+.market-2 {
+    background: rgb(247, 247, 247);
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-txt-2 {
+    text-align: center;
+    width: 450px;
+}
+
+.content-txt-2 h2 {
+    font-size: 48px;
+    text-align:left;
+    font-family: sans-serif;
+}
+
+.content-txt-2 p {
+    font-family: sans-serif;
+    margin: 10px 0;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(110, 110, 110);
+    font-weight: 300;
+}
+
+.market-3 {
+    background: rgb(255, 255, 255);
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-txt-3 {
+    text-align: center;
+    width: 450px;
+}
+
+.content-txt-3 h2 {
+    font-size: 48px;
+    text-align:left;
+    font-family: sans-serif;
+}
+
+.content-txt-3 p {
+    font-family: sans-serif;
+    margin: 10px 0;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(110, 110, 110);
+    font-weight: 300;
+}
+
+.market-4 {
+    margin-top: 20px;
+    background: rgb(247, 247, 247);
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-txt-4 {
+    text-align: center;
+    width: 900px;
+}
+
+.content-txt-4 h2 {
+    font-size: 37px;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.market-4 img {
+    width: 90%;
+}
+
+.market-4 h3 {
+    margin: 20px 0;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.content-txt-4 p {
+    font-family: sans-serif;
+    margin: 10px 0;
+    font-size: 20px;
+    color: rgb(110, 110, 110);
+    font-weight: 300;
+}
+
+.align-btn button {
+    width: 300px;
+    height: 50px;
+    margin: 20px 10px;
+    border: 0;
+    padding: 0px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background: #404eed;
+    color: #fff;
+    box-shadow: 0px 4px 50px -12px #8993ff;
+    transition: 0.3s;
+}
+
+.align-btn button:hover {
+    background: #5260fa;
+    box-shadow: 0px 4px 50px 15px #8993ff;
+}
+
+@media screen and (max-width:999px) {
+    .nav-list {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+    }
+}
+
+footer {
+    background-color: #23272a;
+    font-family: sans-serif;
+}
+
+.align-footer {
+    display: flex;
+    height: 40vh;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.explane-list {
+    display: flex;
+    gap: 100px;
+    margin: 20px;
+}
+
+.list-footer {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.list-footer span {
+    color: #5865f2;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.list-footer li {
+    margin: 3.55555565px 0;
+}
+
+.list-footer li:hover {
+    text-decoration: underline;
+}
+
+#pop_up {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+.market-1, .market-2, .market-3, .market-4 {
+    animation: fadeMarket 1.5555s ease-in;
+}
+
+@keyframes fadeMarket {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }  
+}
+
+@media screen and (max-width: 1024px) {
+    .content-txt-1 h2, .content-txt-2 h2, .content-txt-3 h2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .content-txt-2 h2, .content-txt-2 p {
+        margin-left: 20px;
+    }
+}
+
+
+@media screen and (max-width: 877px) {
+    .market-1, .market-3 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: start;
+        height: 80vh;
+    }
+
+    .market-2 {
+        flex-direction: column-reverse;
+    }
+
+    .market-1 img, .market-2 img, .market-3 img {
+        width: 460px;
+    }
+
+    .content-txt-1 h2, .content-txt-2 h2, .content-txt-3 h2 {
+        font-size: 25px;
+        margin: 5px 0;
+    }
+
+    .content-txt-2 h2, .content-txt-2 p {
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 1150px) {
+    .market-1 img, .market-2 img, .market-3 img {
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 944px) {
+    .market-4 {
+        height: 90vh;
+    }
+    .market-4 h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 877px) {
+    .market-4 h2 {
+        font-size: 20px;
+    }
+    .market-4 p {
+        font-size: 19px;
+    }
+    .content-txt-4 {
+        width: 80%;
+        text-align: start;
+    }
+    .market-4 h3 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 888px) {
+    .btns {
+        display: block;
+        width: 100%;
+    }
+    
+    .bx-windows {
+        margin: 10px 0;
+    }
+    
+    .op-nvg {
+        margin: 10px 0;
+    }
+
+    .align {
+        width: 90vw;
+    }
+
+    .first-txt h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 777px) {
+    .first-txt {
+        text-align: start;
+        background: url(img/bg-1.svg) #404eed no-repeat center center;
+        background-size: 100%;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1200px) {
+    #pop_up {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 806px) {
+    .align-footer {
+        height: 100%;
+    }
+
+    .explane-list {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .explane-list {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 377px) {
+    .market-1 img, .market-2 img, .market-3 img {
+        width: 250px;
+    }
+}
