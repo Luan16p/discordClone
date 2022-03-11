@@ -178,6 +178,10 @@ html {
     font-weight: 300;
 }
 
+#px-jpg-svg {
+    width: 50vw;
+}
+
 .market-2 {
     background: rgb(247, 247, 247);
     height: 70vh;
@@ -239,7 +243,7 @@ html {
 .market-4 {
     margin-top: 20px;
     background: rgb(247, 247, 247);
-    height: 130vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -258,7 +262,7 @@ html {
 }
 
 .market-4 img {
-    width: 90%;
+    width: 90vw !important;
 }
 
 .market-4 h3 {
@@ -389,10 +393,6 @@ footer {
         height: 80vh;
     }
 
-    .market-1 img, .market-2 img, .market-3 img {
-        width: 460px;
-    }
-
     .content-txt-1 h2, .content-txt-2 h2, .content-txt-3 h2 {
         font-size: 25px;
         margin: 5px 0;
@@ -414,7 +414,10 @@ footer {
 
 @media screen and (max-width: 1150px) {
     .market-1 img, .market-2 img, .market-3 img {
-        width: 550px;
+        width: 80vw;
+    }
+    #px-jpg-svg {
+        width: 80vw;
     }
 }
 
@@ -535,14 +538,14 @@ footer {
 
 @media screen and (max-height: 999px) {
     .market-4 img {
-        width: 50%;
+        width: 70vw !important;
+        height: 50vh !important;
     }
 }
 
 @media screen and (max-height: 699px) {
     .market-4 {
-        height: 155vh;
-        margin: 30px 0;
+        height: 120vh;
     }
     .align-footer {
         height: 100vh;
@@ -554,4 +557,10 @@ footer {
         margin: 10px 0;
     }
     
+}
+
+@media screen and (min-height: 888px) {
+    .market-1, .market-2, .market-3 {
+        height: 150vh;
+    }
 }
